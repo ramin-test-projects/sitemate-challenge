@@ -3,3 +3,7 @@ export type Issue = {
   title?: string;
   description?: string;
 };
+
+export type ServerResponse = {
+  result: "ok" | "nok";
+};
