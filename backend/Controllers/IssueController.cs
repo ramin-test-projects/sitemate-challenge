@@ -20,4 +20,10 @@ public class IssueController : ControllerBase
     {
         return Issues;
     }
+
+    [HttpPut("issue")]
+    public IEnumerable<Issue> Put(Issue issue)
+    {
+        return Issues;
+    }
 }
